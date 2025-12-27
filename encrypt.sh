@@ -26,7 +26,7 @@ YELLOW='\033[0;33m'
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
-PASS_FILE=""
+PASS_FILE="$HOME/.config/encrypt/passphrase"
 
 # ---- Helpers ----
 error_exit() { # print an error message and exit
