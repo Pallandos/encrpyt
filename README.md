@@ -33,3 +33,11 @@ encrypt -f "*.txt"
 # NOT SAFE
 # will encrypt all .txt files in current dir, using the passphrase in ~/.config/encrypt/passphrase
 ```
+
+## Removing 
+
+Uninstalling ENCRPYT is as easy as installing. Just run 
+
+    make uninstall
+
+and it will remove the files from your path.
